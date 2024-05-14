@@ -20,3 +20,25 @@ Confusion Matrix:
  [  2   2   1 572  14]
  [  1   1   2  16 545]]
 
+model_0.90_2023-09-01.pkl
+Accuracy: 0.90
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.97      0.69      0.81        49
+           1       0.55      0.18      0.27        33
+           2       0.85      0.36      0.51        91
+           3       0.92      0.97      0.94       565
+           4       0.89      0.98      0.93       591
+
+    accuracy                           0.90      1329
+   macro avg       0.83      0.64      0.69      1329
+weighted avg       0.89      0.90      0.89      1329
+
+Confusion Matrix:
+[[ 34   1   0   8   6]
+ [  1   6   2  12  12]
+ [  0   1  33  16  41]
+ [  0   2   3 548  12]
+ [  0   1   1  12 577]]
+
